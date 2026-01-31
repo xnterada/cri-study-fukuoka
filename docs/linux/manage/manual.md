@@ -30,6 +30,17 @@
 
 受講者がLinux環境を自力で構築できない場合、運用者が補助してください。手順は「Linux環境構築手順」のページを参照してください。
 
+> ⚠️ **注意**  
+> Windowsユーザー向けのLinux環境構築手順で受講者から以下のエラーの連絡を受けた場合は、寺田が対応します。寺田が不在時は、セットアップは次週行うことを説明してターミナル操作が不要な第1回の内容を進めるように案内してください。
+
+   ```bash
+   WSL2 は、現在のマシン構成ではサポートされていません。 
+   "仮想マシン プラットフォーム" オプション コンポーネントを有効にし、さらに、BIOS で仮想化を有効にしてください。 
+   "仮想マシン プラットフォーム" を有効にするには、次のコマンドを実行します: wsl.exe --install --no-distribution 
+   詳細については、https://aka.ms/enablevirtualization をご覧ください
+   エラー コード : Wsl/InstallDistro/Service/RegisterDistro/CreateVm/HCS/HCS_E_HYPERV_NOT_INSTALLED
+   ```
+
 ## お問い合わせ
 
-運用に困った場合は、Slackで管理者の寺田（terada_no-DS）までDMしてください。
+運用に困った場合は、Slackで寺田（terada_no-DS）までDMしてください。
