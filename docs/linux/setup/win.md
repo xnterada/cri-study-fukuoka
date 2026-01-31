@@ -43,6 +43,17 @@ Windows Subsystem for Linux 2 (以下、WSL2) はWindows標準で提供されて
 
 6. 再起動後、スタートメニューから「Ubuntu（オレンジのアイコン）」のLinuxディストリビューションを起動します。
 
+> ⚠️ **注意**  
+> WSL2のインストール中に以下のようなエラーが表示された場合は、別の設定が必要なので講師に連絡してください。
+
+   ```bash
+   WSL2 は、現在のマシン構成ではサポートされていません。 
+   "仮想マシン プラットフォーム" オプション コンポーネントを有効にし、さらに、BIOS で仮想化を有効にしてください。 
+   "仮想マシン プラットフォーム" を有効にするには、次のコマンドを実行します: wsl.exe --install --no-distribution 
+   詳細については、https://aka.ms/enablevirtualization をご覧ください
+   エラー コード : Wsl/InstallDistro/Service/RegisterDistro/CreateVm/HCS/HCS_E_HYPERV_NOT_INSTALLED
+   ```
+
 ## 初期設定
 
 Ubuntuが初めて起動すると、ユーザー名とパスワードの設定を求められます。以下に従って設定を完了してください。
